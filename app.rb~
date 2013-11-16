@@ -1,0 +1,8 @@
+require 'grape'
+require 'data_mapper'
+require 'dm-postgres-adapter'
+
+DataMapper::Logger.new($stdout, :debug)
+
+class TubmanAPI < Grape::API
+end
