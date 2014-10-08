@@ -110,3 +110,4 @@ DEPENDENCIES
   data_mapper
   dm-postgres-adapter
   grape
+  json
